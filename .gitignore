@@ -1,0 +1,60 @@
+# =====================================
+# ARCHIVOS GENERALES DE PYTHON
+# =====================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+.env/
+.venv/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# =====================================
+# DJANGO
+# =====================================
+# Archivos de base de datos local
+db.sqlite3
+
+# Archivos de migraciones compiladas
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración local
+local_settings.py
+
+# Archivos estáticos y media (generados dinámicamente)
+staticfiles/
+media/
+
+# =====================================
+# HERRAMIENTAS Y EDITORES
+# =====================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =====================================
+# COMPILACIONES / DEPLOY
+# =====================================
+build/
+dist/
+*.egg-info/
+
+# =====================================
+# ARCHIVOS DE TEST
+# =====================================
+.coverage
+.pytest_cache/
+htmlcov/
+*.sqlite3-journal
